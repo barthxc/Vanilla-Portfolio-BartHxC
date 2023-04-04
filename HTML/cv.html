@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bart CV</title>
+    <!--Icon Web-->
+    <link rel="icon" href="../assets/icons/LOGO_MORADO-B1.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--Style-->
+    <link rel="stylesheet" href="../styles/cv.css">
+</head>
+
+
+<body>
+<!--SECTION 1-->
+<section class="home" id="home">
+        <div class="section-content">
+            <header>
+                <div class="nav-bar">
+<!--                     <img src="../assets/icons/icons8-jellyfish-48.png" alt="">
+ -->                </div>
+                <nav id="nav" class="nav">
+                    <a href="#home">Home</a>
+                    <a href="#aboutme">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#resume">Resume</a>
+                </nav>
+                <div class="logo">
+                   <a href="../index.html"><img src="../assets/icons/LOGO_MORADO-B1.png"  alt="logo" class="logo"></a> 
+                </div>
+            </header>
+                <div class="info">
+                    <h1>Bart HxC</h1>
+                    <h2>DEVELOPER - SOUND TECHNICIAN</h2>
+                    <div class="socialm">
+                        <!-- Linkedin -->
+                        <a href="https://www.linkedin.com/in/pablo-bartolomé-gallardo-8167a81b4/"><i class="fab fa-linkedin"></i></a>
+                        <!-- Github -->
+                        <a href="https://github.com/barthxc"><i class="fab fa-github"></i></a>
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/bart_hxc"><i class="fab fa-twitter"></i></a>
+                        <!-- MAIL -->
+                        <a href="mailto:barthxc.business@gmail.com"><i class="fa-solid fa-envelope"></i></i></a>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img src="../assets/cardimages/self.png">
+                </div>
+        </div>
+</section>
+
+<!--SECTION 2-->
+<section class="aboutme" id="aboutme">
+    <div class="section-content">
+        <h2 class="section-title">About me</h2>
+        <h3>WHOAMI</h3>
+
+        <p class="special">"La elocuencia está sobrevalorada"</p>
+         <p>Apasionado por la tecnología y la creatividad, busco nuevas oportunidades para desarrollarme 
+            profesionalmente y aplicar mis habilidades en proyectos innovadores. Comprometido, curioso y divertido. 
+            Estoy emocionado por descubrir nuevas oportunidades que me permitan seguir creciendo como profesional.</p>
+
+        <div class="fila">
+            <div class="col">
+                <!--Perfil-->
+                <i class="fa-solid fa-user"></i>
+                <span class="titulo-detalle">Perfil</span>
+                <p>Soy un divertido sujeto al que le gusta añadir todos los conocimientos posibles al cerebro
+                    y a los proyectos. Me quedo con la frase: "Si no es funcional, consigue que lo sea. Y si no puedes, hazlo bonito."
+                </p>
+            </div>
+
+            <div class="col">
+                <!--Ubicación-->
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="titulo-detalle">Ubicacion</span>
+                <p>¡Donde el proxy me aloje!  España/Andalucía por ahora.</p>
+            </div>
+
+            <div class="col">
+                <!--Intereses-->
+                <i class="fa-sharp fa-solid fa-heart"></i>
+                <span class="titulo-detalle">Intereses</span>
+                <p>Me encanta el diseño a pesar de no estar especializado. Me gusta la armonía y el contraste.
+                    Los detalles pueden hacer la diferencia. También me encantan las hormigas.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--SECTION 3 SKILLS-->
+<div class="skills" id="skills">
+    <div class="section-content">
+        <h2 class="section-title">My skills</h2>
+        <h3>Odio las skills bars</h3>
+            <!--CHART HERE-->
+            <div class="flex-chart">
+            <div class="container-chart ">
+                <canvas id="myChart"></canvas>
+            </div>
+            </div>
+            <!--POSIBLE IMPLEMETACION DE SKILL BAR, LO DUDO-->
+    </div>
+</div>
+
+<!--SECTION 4 RESUMEN-->
+<section class="resume" id="resume">
+<div class="section-content">
+    <h2 class="section-title">RESUME</h2>
+    <h3>FORMACIÓN</h3>
+    <div class="info">
+        <!--ESTUDIOS TABLES-->
+        <div class="col">
+            <span class="title">Education</span>
+            <!--Table1-->
+            <table>
+                <tr>
+                    <td class="data">
+                        <h3>Fecha- Fecha</h3>
+                    </td>
+                    <td rowspan="2" class="description">
+                        Manipulación de equipos informáticos<br>
+                        Servidores<br>
+                        Fundamentos básicos de programación Web
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <h4>Sistemas Microinformáticos</h4>
+                        <p>IES Diego Angulo</p>
+                        <span class="promedio">6.7</span>
+                    </td>
+                </tr>
+            </table>
+
+            <!--Table2-->
+            <table>
+                <tr>
+                    <td class="data">
+                        <h3>2017- 2019</h3>
+                    </td>
+                    <td rowspan="2" class="description">
+                        Sonido directo<br>
+                        Tratamiento acustico<br>
+                        Grabación, edición y maximización<br>
+                        Montaje sonoro:<br>
+                        Calibración, monitoreo, FOH
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <h4>Sonido para audiovisuales y espectáculos</h4>
+                        <p>IES Tierno Galván</p>
+                        <span class="promedio">6.67</span>
+                    </td>
+                </tr>
+            </table>
+            <!--Table2-->
+            <table>
+                <tr>
+                    <td class="data">
+                        <h3>2022- 2024</h3>
+                    </td>
+                    <td rowspan="2" class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Repellat, omnis.
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <h4>Desarrollo de Aplicaciones Web</h4>
+                        <p>Universidad Alfonso X El Sabio</p>
+                        <span class="promedio">null :)</span>
+                    </td>
+                </tr>
+            </table>
+
+            
+        </div>
+        <!--TRABAJO TABLES-->
+        <div class="col">
+            <span class="title">Experience</span>
+            <!--Table1-->
+            <table>
+                <tr>
+                    <td class="data">
+                        <h3>2 años</h3>
+                    </td>
+                    <td rowspan="2" class="description">
+                        Creación de estructuras.
+                        Acondicionamiento sonoro de escenarios.<br>
+                        - MTV EMA Sevilla 2019
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <h4>PennyWise</h4>
+                        <p>Hammper</p>
+                        <span class="promedio">8.9 PG?</span>
+                    </td>
+                </tr>
+            </table>
+
+            <!--Table2-->
+            <table>
+                <tr>
+                    <td class="data">
+                        <h3>1 año</h3>
+                    </td>
+                    <td rowspan="2" class="description">
+                        Enseñanza a jóvenes sobre los fundamentos de la robótica. 
+                        Diseño 3D y la programación de videojuegos interactiva.
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <h4>Dicampus</h4>
+                        <p>Docente</p>
+                        <span class="promedio"></span>
+                    </td>
+                </tr>
+            </table>
+            <!--Table3-->
+            <table>
+                <tr>
+                    <td class="data">
+                        <h3>null - null</h3>
+                    </td>
+                    <td rowspan="2" class="description">
+                        ¡Tu puedes ser la siguiente empresa en aparecer aquí!
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <h4></h4>
+                        <p></p>
+                        <span class="promedio"></span>
+                    </td>
+                </tr>
+            </table>
+
+            
+        </div>
+
+    </div>
+</div>
+</section>
+
+<!--SECTION 5 CONTACT-->
+ <!--Footer-->
+
+ <footer class="footer text-center text-white" id="contact">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <div>
+        <!-- Linkedin -->
+        <a
+          class="btn b btn-floating btn-lg  m-1"
+          href="https://www.linkedin.com/in/pablo-bartolomé-gallardo-8167a81b4/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+            ></a>
+  
+        <!-- Github -->
+        <a
+          class="btn btn-floating btn-lg  m-1"
+          href="https://github.com/barthxc"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-floating btn-lg  m-1"
+          href="https://twitter.com/bart_hxc"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- MAIL -->
+        <a
+          class="btn btn-floating btn-lg  m-1"
+          href="mailto:barthxc.business@gmail.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fa-solid fa-envelope"></i></i
+        ></a>
+    </div>
+      <!-- Section: Social media -->
+    </div>
+  
+    <p>@Copyright BartHxC</p>
+  
+  </footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+ <!--ChartJS-->   
+ <script src="../JS/chart.umd.js.map"></script>
+ <script src="../JS/chart.js"></script>
+ <!--JS-->   
+ <script src="../JS/cvmychart.js"></script>
+ <script src="../JS/cv.js"></script>
+</html>

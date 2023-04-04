@@ -1,0 +1,406 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/elvish');
+
+*{
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Section 1*/
+.home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+    url("../assets/CV/CVbck1.png");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.home .section-content{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.homre .section-content header{
+    padding: 30px;
+}
+
+/*Menu Lateral*/
+
+.home .section-content header nav{
+    display:none;
+    margin-top: 30px;
+    position: fixed;
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    text-decoration: none;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.040);
+    flex-direction: column !important;
+}
+
+/**OPEN PARA ABRIR**/
+.home .section-content header nav.open{
+    display:block;
+}
+
+.home .section-content header nav a{
+    margin-top: 5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+/* ********* */
+
+.home .section-content header .logo {
+    margin-top: 15px;
+    width: 7vmax;
+    display: inline;
+    cursor: pointer;
+}
+
+/**OPEN PARA CAMBIAR MI BOTON**/
+
+.home .section-content header .nav-bar{
+    background-image: url(../assets/icons/icons8-jellyfish-48.png);
+    margin-top: 30px;
+    position:fixed;
+    font-size: 20px;
+    width: 45px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+    backdrop-filter: blur(15px);
+    border-radius: 20%;
+}
+
+/**OPEN PARA CAMBIAR MI BOTON**/
+.home .section-content header .nav-bar.open{
+    background-image: url(../assets/icons/icons8-jellyfish-48-2.png);
+
+}
+
+.home .section-content header .nav-bar img{
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.040);
+    border-radius: 20%;
+}
+
+.home .section-content .info{
+    padding-bottom: 130px;
+}
+
+.home .section-content .info h1{
+    color: #e6e6e6;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.home .section-content .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.home .section-content .info .socialm{
+    margin: 20px 0;
+}
+.home .section-content .info .socialm a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #060f18;
+    color: #e6e6e6;
+    border-radius:50%;
+    border: 1px solid #634B8A;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.home .section-content .info .socialm a:hover{
+    color:#a37de1;
+    box-shadow: 0 0 20px #e6e6e6;
+}
+
+.home .section-content .foto{
+    position:relative;
+}
+
+.home .section-content .foto img{
+    max-width: 240px;
+    border-radius: 50%;
+    border: 5px solid #634B8A;
+    position:absolute;
+    left: 50%;
+    top:-125px;
+    transform:translateX(-50%);
+}
+/**ESTILOS GENERALES**/
+.section-title{
+    color: #e6e6e6;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+/***ABOUT ME ***/
+
+.aboutme{
+    background:#060f18;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.aboutme .section-content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.aboutme .section-content h3{
+    color: #e6e6e6;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.aboutme .section-content .special{
+    color:#36A2EB;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.aboutme .section-content p{
+    max-width: 700px;
+    margin: auto;
+    color:#e6e6e6;
+}
+
+.aboutme .section-content .fila{
+    display: flex;
+    margin-top:30px;
+    justify-content: space-between;
+}
+
+.aboutme .section-content .fila .col{
+    width: 30%;
+    padding: 0 10px 0 10px;
+}
+
+.aboutme .section-content .fila .col i{
+    display: inline-block;
+    color: #634B8A;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #634B8A;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.aboutme .section-content .fila .col .titulo-detalle{
+    color: #e6e6e6;
+}
+/**IMAGEN POR I**/
+
+.aboutme .section-content .fila .col img{
+    display: inline-block;
+    color: chocolate;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #634B8A;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+
+
+.aboutme .section-content .fila .col span{
+    display:block;
+    font-weight: bold;
+    margin: 8px 0;
+
+}
+
+/***MY CHART**/
+
+.container-chart{
+    width: 70%;
+    padding: 5px;
+}
+
+#myChart{
+    width: 100%;
+    border-radius: 10%;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.040);
+
+}
+
+.flex-chart{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+/***SECTION 3 SKILLS ***/
+
+.skills{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+    url("../assets/CV/CVbck2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color:#fff;
+}
+
+.skills .section-content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.skills .section-content h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+/**POSIBLE IMPLEMETACION DE SKILL BAR, LO DUDO**/
+
+
+/**SECTION RESUME**/
+
+.resume{
+    background-color:#060f18 ;
+    padding: 140px 0px 100px 0;
+    text-align: center;
+}
+
+.resume .section-content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.resume .section-content h3{
+    color: #e6e6e6;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.resume .section-content .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.resume .section-content .info .col{
+    width: 45%;
+}
+
+.resume .section-content .info .col .title{
+    display: inline-block;
+    color: #e6e6e6;
+    font-weight: bold;
+    border: 2px solid #e6e6e6;
+    padding: 10px;
+}
+
+.resume .section-content .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.resume .section-content .info .col table .data{
+    width: 40%;
+    border-bottom: 1px solid #36A2EB;
+}
+
+.resume .section-content .info .col table h4{
+    color: #36A2EB;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.resume .section-content .info .col table p{
+    color: #e6e6e6;
+    font-size: 14px;
+}
+
+.resume .section-content .info .col table .promedio{
+    display: block;
+    color: #e6e6e6;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.resume .section-content .info .col table .description{
+    color: #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    padding-left: 20px;
+}
+
+/**FOOTER**/
+footer{
+    background: #060f18;
+}
+
+
+/*FOOTER PROBLEMS I / A bootstrap*/
+
+
+footer p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+/**RESPONSIVE**/
+
+@media screen and (max-width:800px){
+  .aboutme .section-content .fila{
+    display: block;
+  }
+  .aboutme .section-content .fila .col{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .resume .section-content .info{
+    display: block;
+  }
+  .resume .section-content .info .col{
+    width: 90%;
+    margin: auto;
+  }
+  .resume .section-content .info .title{
+    display: block;
+    text-align: center;
+  }
+  .resume .section-content .info .col table{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+}

@@ -1,0 +1,30 @@
+.ballena-animation{
+    animation-name: animation1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 80px;
+    left:20px;
+  
+  }
+  @keyframes animation1{
+    50%{
+      transform: translateY(5px);
+    }
+  }
+
+
+
+  .crab-animation{
+    animation-name: animation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom: 10px;
+  
+  }
+  @keyframes animation2{
+    50%{
+      transform: translateY(3px);
+    }
+  }

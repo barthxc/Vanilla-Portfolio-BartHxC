@@ -1,0 +1,27 @@
+.footer{
+    position:absolute;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.fab{
+    color:  #fff;
+    transition: ease 0.5s;
+}
+
+.fab:hover{
+    color:#634B8A;
+    font-size: 25px;
+}
+
+
+/*Si lo pongo junto Bootstrap me da error WTF */
+.fa-solid{
+    color:  #fff;
+    transition: ease 0.5s;
+}
+
+.fa-solid:hover{
+    color:#634B8A;
+    font-size: 25px;
+}

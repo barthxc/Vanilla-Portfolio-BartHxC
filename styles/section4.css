@@ -1,0 +1,182 @@
+/*SECTION 4*/
+
+.slide-container{
+  max-width: 1040px;
+  width: 100%;
+ 
+ /*  padding: 50px 0;
+  transform: translateY(-100px); */
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+  bottom:30px;
+}
+.cart{
+  border-radius: 25px;
+  background-color: #0c141d;
+  
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #091a2a;
+  border-radius: 25px 25px 0 25px;
+}
+
+/** ADORNO DERECHA CIRCULAR
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+**/ 
+
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #36A2EB;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.description{
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+p{
+  margin-bottom: 0.1rem !important;
+}
+.button{
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #634B8A;
+  border-radius: 6px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #36A2EB;
+ 
+}
+
+.swiper-navBtn{
+  color: #1a406e;
+  transition: color 0.3s ease;
+ 
+}
+.swiper-navBtn:hover{
+  color: #36A2EB;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+
+/**LAS QUIERO OCULTAR POR AHORA**/
+.swiper-pagination-bullet{
+  background-color: #634B8A;
+  opacity: 1;
+  display: none;
+}
+.swiper-pagination-bullet-active{
+  background-color: #36A2EB;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+/**MEDIA QUERY PARA EL : BOTONES SWIPER PARA EL LARGO DE LAS PANTALLAS DOBLADAS + DISPLAY NONE A MI CHART**/ 
+
+
+@media (max-height: 420px){
+  .swiper-pagination{
+  display: none;
+  }
+  .chart-cont {
+    display: none !important;
+  }
+  .card-image{
+    width: 120px;
+    height: 120px;
+  }
+
+  .slide-container{
+    margin-bottom: 90px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

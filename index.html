@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BartHxC</title>
+    <!--Icon Web-->
+    <link rel="icon" href="assets/icons/LOGO_MORADO-B1.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/section2.css">
+    <link rel="stylesheet" href="styles/section4.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles.css">
+
+    
+    
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+        <header id="header">
+            <img src="assets/icons/LOGO_MORADO-B1.png" alt="logo" class="logo">
+            <!--Menu de JS 
+            <div class="menu"></div>
+           -->
+            
+             <!--Menu Pc-->
+            <nav>
+                <ul class="menulist">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#proyects">Proyect</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                 <!--Botón de mi hamburguesita-->
+            <div class="toggle_btn" id="toggle_btn">
+            </div>
+
+            </nav>
+
+            <!--Menú responsive mobile-->
+            <div class="dropdown_menu" id="dropdown_menu"> 
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#proyects">Proyect</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </header>
+    
+        <!--Sección 1 <991px large-->
+        <section>
+            <h1 class="nick" id="nick">Bart HxC</h1>
+            <a href="#about" class="btn" id="btn">Dive in!</a>
+            <img src="assets/section1/foto-1.png"  id="foto-1">
+            <img src="assets/section1/foto-3.png" class="ballena-animation" id="foto-3">
+            <img src="assets/section1/foto-2.png"  id="foto-2">
+        </section>
+      
+<!--*********************************************-->
+        <!--Sección 2 <991px large-->
+            <section>
+                <img src="assets/section2/SEP1.png" alt="sep1" id="about">
+                <div class="sec-2" id="about">
+                  <div class="row justify-content-around">
+                    <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center d-flex align-items-center">
+                      <img id="vector" src="assets/section2/selfCircle.png" class="smaller">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex align-items-center justify-content-center">
+                      <div class="container-text d-flex align-items-center justify-content-center px-4 py-5">
+                        <p class="text-center">Soy Bart. Mi meta es seguir aprendiendo y desarrollando mis habilidades en esta área, y estoy ansioso de poder 
+                            aplicar lo que he aprendido en proyectos futuros. :)</p>
+                      </div>
+                    </div>
+                    <div class="chart-cont col-lg-4 col-md-12 d-md-block col-sm-0 justify-content-center d-flex align-items-center">
+                        <div class="container-chart d-flex justify-content-center">
+                          <canvas id="myChart"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>                    
+                  <!--   Estoy muy emocionado de seguir aprendiendo y desarrollando mis habilidades en esta área, y estoy ansioso de poder 
+                        aplicar lo que he aprendido en proyectos futuros. Si estás interesado en conocer más sobre mis habilidades y proyectos,
+                        por favor no dudes en contactarme. <br>
+                         ¡Gracias por leer mi presentación! uwu -->
+                
+            </div>
+         
+        </section>
+ 
+<!--*********************************************-->
+
+        <!--Sección 3 <991px large-->
+        <section>
+            <img src="assets/section3/foto-1.png"  id="foto-4">
+            <img src="assets/section3/foto-2.png" class="crab-animation" id="foto-6">
+            <img src="assets/section3/CUEVA.png"  id="foto-5">
+        </section>
+ 
+<!--*********************************************-->
+
+        <!--Sección 4 <991px large-->
+        <section id="proyects">
+            <img src="assets/section4/SEP2.png" alt="sep2" id="proyect">
+
+            <!--******************CARDS************************************************-->
+            
+            <div class="slide-container swiper ">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="assets/cardimages/meJoke.jpeg" class="card-img">
+                                </div>
+                            </div>
+                            <!--CARD-1-->
+                            <div class="card-content">
+                                <h2 class="name">Bart HxC</h2>
+                                <p class="description">My own project: become a developer</p>
+    
+                                <a href="HTML/cv.html" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                             <!--CARD-2-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/proyect2.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">My "first web"</h2>
+                                <p class="description">It's a bit "Frankenstein" but it's my dear Frankenstein!<3</p>
+    
+                                <a href="./index.html" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            <!--CARD-3-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/proyect4.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">CV Web</h2>
+                                <p class="description">HTML - CSS - JS</p>
+    
+                                <a href="HTML/cv.html" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                         <!--CARD-4-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/proyect3.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Feedback 1</h2>
+                                <p class="description">Simple HTML Vanilla</p>
+    
+                                <a href="FEEDBACKS/Feedback1PBG/index.html" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            <!--CARD-5-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/incoming.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">In coming!</h2>
+                                <p class="description"></p>    
+                                <a href="" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            <!--CARD-6-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/incoming.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">In coming!</h2>
+                                <p class="description"></p>    
+                                <a href="" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            <!--CARD-7-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/incoming.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                           <h2 class="name">In coming!</h2>
+                           <p class="description"></p>    
+                                <a href="" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            <!--CARD-8-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/incoming.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">In coming!</h2>
+                                <p class="description"></p>    
+                                <a href="" class="button">View More</a>
+                            </div>
+                        </div>
+                        <div class="cart swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            <!--CARD-9-->
+                                <div class="card-image">
+                                    <img src="assets/cardimages/incoming.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">In coming!</h2>
+                                <p class="description"></p>    
+                                <a href="" class="button">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+  <!--Footer-->
+
+  <footer class="footer text-center text-white" id="contact">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <div>
+         <!-- Instagram 
+        <a
+          class="btn  btn-floating btn-lg  m-1"
+          href="https://www.instagram.com/bart.hxc/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+            ></a> -->
+  
+        <!-- Linkedin -->
+        <a
+          class="btn b btn-floating btn-lg  m-1"
+          href="https://www.linkedin.com/in/pablo-bartolomé-gallardo-8167a81b4/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+            ></a>
+  
+        <!-- Github -->
+        <a
+          class="btn btn-floating btn-lg  m-1"
+          href="https://github.com/barthxc"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-floating btn-lg  m-1"
+          href="https://twitter.com/bart_hxc"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- MAIL -->
+        <a
+          class="btn btn-floating btn-lg  m-1"
+          href="mailto:barthxc.business@gmail.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fa-solid fa-envelope"></i></i
+        ></a>
+        <!-- CV -->
+        <a
+          class="btn btn-floating btn-lg m-1"
+          href="HTML/cv.html"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fa-solid fa-file-lines"></i></i
+        ></a>
+    </div>
+      <!-- Section: Social media -->
+    </div>
+  
+    <p>@Copyright BartHxC</p>
+    <p>Thanks!&nbsp;<a href="www.google">Illustrator - Conchi Munuera</a></p>
+  </footer>
+
+        </section>
+
+      
+
+
+
+        
+</body>
+    <!--ResponsiveImagesJS-->      
+    <script src="JS/img-responsive.js" defer></script>  
+    <!--ONLINE <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+    <!--ChartJS-->   
+    <script src="JS/chart.umd.js.map"></script>
+    <script src="JS/chart.js"></script>
+    <script src="JS/mychart.js"></script>
+    <!-- ONLINE  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>-->
+    <script src="JS/swiper-bundle.min.js"></script>
+   
+    <!--Swiper JS-->
+    <script src="JS/swiper.js"></script>
+     <!--Script-->
+    <script src="JS/dropdown.js"></script>
+  
+ 
+</html>

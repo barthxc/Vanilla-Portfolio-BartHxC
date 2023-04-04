@@ -1,0 +1,71 @@
+/*SECTION 2*/
+.sec-2{
+
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100vh; 
+}
+
+
+
+.container-chart{
+    height: 50vh;
+
+}
+
+
+
+.container-text {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+.container-text p{
+
+    color:#fff;
+    font-size: 1.4em;
+}
+
+   
+
+
+#vector{
+position: relative; 
+height:50vh;
+width: auto;
+}
+
+.col-lg-4 img {
+    height: 40vh;
+  }
+
+
+
+
+  
+ 
+/*MEDIA QUERY*/
+
+@media (max-width: 768px) {
+    #vector.smaller {
+      max-width: auto;
+      max-height: 200px;
+    }
+    .container-text p {
+      font-size: 0.9rem;
+    }
+    .container-text {
+        max-height: 100px;
+    }
+    .container-chart {
+      height: 45vh;
+    }
+  }
+
+
