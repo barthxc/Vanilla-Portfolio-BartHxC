@@ -4,12 +4,12 @@ const radarChart1 = document.getElementById('myChart');
 
 const data={
     labels:[
-        ['Creativity', 'HTML'], 
-        ['Comunication' , 'CSS'], 
-        ['Poblem Solving', 'JavaScript'], 
-        ['Team Work', 'Java'], 
-        ['Curiosity' ,'MySQL'], 
-        ['Ants','Git']
+        ['Creativity', 'HTML','SpringBoot'], 
+        ['Comunication' , 'CSS','PHP'], 
+        ['Poblem Solving', 'JavaScript','Django'], 
+        ['Team Work', 'Bootstrap','MySQL'], 
+        ['Curiosity' ,'React','NodeJS'], 
+        ['Ants','Figma','Git']
     ],
     datasets:[{
         label:'Personal Skills',
@@ -22,8 +22,8 @@ const data={
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(54, 162, 235)'
     },{
-        label:'Coding Skills',
-        data:[90, 60, 30, 70, 40, 45],
+        label:'FRONTEND',
+        data:[90, 70, 70, 60, 30, 20],
         fill:true,
         backgroundColor: 'rgba(99,75,138,0.2)',
         borderColor: 'rgb(99, 75, 138)',
@@ -31,6 +31,18 @@ const data={
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(99, 75, 138)'
+
+    },
+    {
+        label:'BACKEND',
+        data:[50, 20, 40, 50, 60, 30],
+        fill:true,
+        backgroundColor: 'rgba(221,120,12,0.2)',
+        borderColor: 'rgb(221,120,12)',
+        pointBackgroundColor: 'rgb(221, 120, 12)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(221,120, 12)'
 
     }]
 };
@@ -92,7 +104,8 @@ new Chart(radarChart1, {
     plugins: {
         legend:{
             labels:{
-                padding:10
+                color:'rgb(255,255,255)',
+
             }
         }
         
