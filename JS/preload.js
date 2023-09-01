@@ -22,8 +22,8 @@ function desvanecerHexagon() {
         body.classList.remove("no-scroll-y");
   
      
-      }, 500); // Esperar 1.5 segundos adicionales después de la transición
-    }, 1500);
+      }, 1000); // Esperar 1 segundo adicionales después de la transición
+    }, 500);
   }
   
   window.onload = function() {
